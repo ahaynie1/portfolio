@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Heebo:wght@400;700&display=swap");
+
+body {
+  max-width: 1152px;
+  background-color: 
+    #F8FDF7;
+}
+h2{
+  font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #077790;
+}
+nav{
+  background: #077790;
+  height: 55px;
+}
+#logo {
+  background: #9CD657;
+  width: 305px;
+height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tagline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+justify-content: center;
+  width: 416px;
+  height: 388px;
+  background: #53bed6;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #044553;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.extra {
+  padding-bottom: 36px;
+}
+
+.service{
+  padding-bottom: 10px;
+}
+.photo {
+  height: 388px;
+  width: auto;
+}
+#aboutpara{
+  font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #0E3803;
+}
+
+#services {
+  
+width: 375px;
+height: 336px;
+background: #F9B5AC;
+  font-family: DM Serif Display;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 41px;
+display: flex;
+align-items: center;
+color: #5B0E4F;
+}
+
+
+.whd{
+  width: 375px;
+  height: auto;
+}
+
+.serena{
+ width: 375px;
+  height: auto;
+  padding-bottom: 4px;
+}
+
+.tiws{
+ width: 375px;
+  height: auto;
+}
+
+.typography{
+  width: 864px;
+}
+
+.random1{
+  width: 375px;
+  padding-bottom: 5px;
+}
+.random{
+  width: 120px;
+}
+
+.randomsmall{
+  display: inline-flex;
+  width: 375px;
+  gap: 5px;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.raducanu{
+  width: 875px;
+}
+
+.caption{  
+  height: 70px;
+  font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+  justify-content: center; 
+text-align: center;
+color: #5B0E4F;
+  background-color: #F9DEDB;
+}
+.square{
+  width: 375px;
+}
+.workcard{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+   transition: transform 300ms ease-out 100ms;
+}
+
+.workcard:hover {
+  transform: scale(1.05);
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 100px;
+  width: 100%;
+  background-color: #D29C95;
+}
+
+.grid1{
+  display: grid;
+  grid-template-columns: 108px 315px 105px 75px 75px 50px 300px 1fr;
+   grid-template-rows: 140px 30px 388px 85px 85px 251px 140px 28px 549px 572px 125px 630px 125px 660px;
+  padding-bottom: 100px;
+}
+/* logo */
+.a{ 
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start: 3;
+  grid-column-end: span 4;
+}
+/*tagline*/
+.b{
+ grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 2; 
+}
+/* photo */
+.c{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start: 6;
+  grid-column-end: span 2;  
+}
+/* about header */
+.d{
+ grid-row-start: 5;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 1;   
+  align-self: end;
+}
+/* about paragraph */
+ .e{
+   grid-row-start: 6;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 2; 
+   align-self: end;
+}
+/*services*/
+.f{
+  grid-row-start: 5;
+  grid-row-end: span 2;
+  grid-column-start: 5;
+  grid-column-end: span 3;  
+}
+
+/*work*/
+.g{
+  grid-row-start: 7;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+}
+/*whd*/
+.h{
+  grid-row-start: 9;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 2;  
+}
+
+/*serena*/
+.i{
+  grid-row-start: 9;
+  grid-row-end: span 1;
+  grid-column-start: 5;
+  grid-column-end: span 3;  
+}
+
+/*rak*/
+.j{
+  grid-row-start: 10;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 2;  
+}
+
+/*tiws*/
+.k{
+  grid-row-start: 10;
+  grid-row-end: span 1;
+  grid-column-start: 5;
+  grid-column-end: span 3; 
+  align-self: end;
+}
+
+/*typography*/
+.l{
+  grid-row-start: 12;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 6; 
+}
+
+/*raducanu*/
+.m{
+  grid-row-start: 14;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 6; 
+}
+
+footer{
+ background-color: #077790;
+  height: 55px;
+}
+
