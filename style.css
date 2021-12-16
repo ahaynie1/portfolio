@@ -91,21 +91,24 @@ color: #5B0E4F;
 .whd{
   width: 375px;
   height: auto;
+  padding-bottom: 5px;
 }
 
 .serena{
  width: 375px;
   height: auto;
-  padding-bottom: 4px;
+  padding-bottom: 5px;
 }
 
 .tiws{
  width: 375px;
   height: auto;
+  padding-bottom: 5px;
 }
 
 .typography{
   width: 864px;
+  padding-bottom: 5px;
 }
 
 .random1{
@@ -125,6 +128,7 @@ color: #5B0E4F;
 }
 .raducanu{
   width: 875px;
+  padding-bottom: 5px;
 }
 
 .caption{  
